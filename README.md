@@ -32,7 +32,7 @@ Example questions it answers well:
 ```
 
 - **Embeddings**: ChromaDB's default (all-MiniLM-L6-v2, runs locally).
-- **LLM**: Claude Opus 4.7 via the official `anthropic` Python SDK, with prompt caching on the system prompt.
+- **LLM**: Claude (Sonnet 4.6 by default, configurable to Opus 4.7) via the official `anthropic` Python SDK, with prompt caching on the system prompt.
 - **Knowledge sources**: enterprise ATT&CK STIX bundle + Markdown runbooks in `runbooks/`.
 
 ## Setup
